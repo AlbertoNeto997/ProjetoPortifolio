@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Poppins', Sans-Serif;
         font-family: 'Oswald', sans-serif;
     }
-    
-    `;
+         `;
     
     export default GlobalStyle

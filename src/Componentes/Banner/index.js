@@ -1,23 +1,31 @@
 import React from 'react'
 import * as C from '../Banner/styles'
+import Image from './image'
 
 export default function Banner() {
+ 
     return(
-        <C.BannerContainer>
-         <body>
-           
-          <div>
-            <p>Olá, me chamo</p>
-            
-            <h1>Alberto Nascimento</h1>
-            <h4>Desenolvedor web</h4>
-            
-            <p>Especializado em desenvolvimento web de temas personalizados. Se você chegou até aqui, seja bem-vindo. Em busca de contratação ou parceria em desenvolvimento, entre em contato <a href="https://wa.link/2dgcwm" target="_blank">comigo aqui</a>.</p>
-            <button type="button">Download CV</button>
-            </div>
+        <>
+    <C.BannerContainer>
 
-            
+        <Image/>
+        <body>
+        
+            <div>
+                <p>Olá, me chamo</p>
+                <h1>Alberto Nascimento</h1>
+                <h4>Desenvolvedor web</h4>
+
+                <div>
+                    <a href="https://wa.link/2dgcwm" target="_blank">WhatsApp</a> <p/>
+                    <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a><p/>
+                    <a href="https://github.com/AlbertoNeto997" target="_blank">Github</a> <p/>
+                </div>             
+            </div>
+                        
         </body>
-        </C.BannerContainer>
+    </C.BannerContainer>
+
+        </>
     )
 }
