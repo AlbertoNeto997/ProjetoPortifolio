@@ -25,7 +25,7 @@ export default function SobreMim() {
             </C.divAcv><p/>
             <C.divAcv>
                 <main>
-                    <a href="https://github.com/AlbertoNeto997" target="_blank"><p>GITHUB</p></a><p/>
+                    <a href="https://github.com/Albertonsc" target="_blank"><p>GITHUB</p></a><p/>
                 </main>
                 
             </C.divAcv>

@@ -2,57 +2,59 @@ import styled from 'styled-components'
 
 export const BannerContainer = styled.body`
 
-    height: 630px;
+height: 600px;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,21,79,1) 100%);  
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    flex-direction:columns;
-
+    justify-content:space-evenly;
     
-      div{
+    nav{
         margin-right: 50px;
         margin-left: 50px;
-        z-index:10;
-        text-align: center;
-        
-       
     }
     
     h1{
         text-decoration: none;
         color: white;
         font-size: 70px;
-        margin-top:10px;
-        margin-bottom:10px;
         text-align: center;
         color:yellow;
-           }
+    }
 
     h4{
         text-decoration: none;
         color: white;
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 20px;
         text-align: center;
+        margin-bottom: 10px;
     }
+
     p {
         color: white;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:20px;
+        max-width:400px;
           
       }
+
     a{
         text-decoration: none;
-        color: turquoise;
+        color: #20dbcd;
         text-align: justify;
+        font-size:20px;
+        cursor: pointer;
         
-        
-           
-
+            &:hover{
+                color: white;
+                transition-duration: 0.5s;
+            
     }
+}
 
     button{
         min-width: 150px;
@@ -79,9 +81,23 @@ export const BannerContainer = styled.body`
     }
 
     img{
-        width:400px;
-        height: 400px;
-      //  border-radius:200px;
+        width:450px;
+        height: 450px;
         margin-top: 30px;
+    }
+`;
+
+export const Button = styled.section`
+    display:flex;
+    justify-content:space-evenly;
+    
+    div{
+        align-items:center;
+        text-align:center;
+        border-radius:20px 20px 20px 20px;
+        height:40px;
+        width:120px;;
+        background-color:#123855;
+        padding:5px;
     }
 `;

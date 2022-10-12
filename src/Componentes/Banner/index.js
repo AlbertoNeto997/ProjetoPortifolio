@@ -1,6 +1,7 @@
 import React from 'react'
 import * as C from '../Banner/styles'
 import Image from './image'
+import {BsWhatsapp, BsLinkedin, BsGithub} from 'react-icons/bs'
 
 export default function Banner() {
  
@@ -8,22 +9,20 @@ export default function Banner() {
         <>
     <C.BannerContainer>
 
-        <Image/>
         <body>
-        
-            <div>
-                <p>Olá, me chamo</p>
+            <nav>
+                <h2>Olá, me chamo</h2>
                 <h1>Alberto Nascimento</h1>
                 <h4>Desenvolvedor web</h4>
+                <p>Sou um profissional com habilidades de desenvolvimento front-end baseado em JavaScript  </p>
 
-                <div>
-                    <a href="https://wa.link/2dgcwm" target="_blank">WhatsApp</a> <p/>
-                    <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a><p/>
-                    <a href="https://github.com/AlbertoNeto997" target="_blank">Github</a> <p/>
-                </div>             
-            </div>
-                        
+                <C.Button>
+                    <div><BsLinkedin/> <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a></div>
+                    <div><BsGithub/> <a href="https://github.com/Albertonsc" target="_blank">Github</a></div>
+                </C.Button>
+            </nav>
         </body>
+        <Image/>
     </C.BannerContainer>
 
         </>
