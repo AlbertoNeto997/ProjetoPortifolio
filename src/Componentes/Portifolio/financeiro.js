@@ -6,12 +6,11 @@ export default function ImageFinance ( ){
 
     const ImageFinanceiro = styled.nav`
        
+       transition: 0.5s;
+
         :hover{
-        //    -webkit-transform: scale(1.1);
-            transform: scale(1.05);
-            -webkit-transition: -webkit-transform .5s ease;
-             transition: transform .5s ease;
-             transition-duration: 0.5s;
+            transform: scale(1.3);
+             transition: 0.5s;
         }
         img{
             width: 450px;
@@ -21,7 +20,7 @@ export default function ImageFinance ( ){
     
     return(
         <ImageFinanceiro>
-        <a href="#">
+        <a href="/">
             <img  src={Financeiro} alt="logo-dev"/>
         </a>  
         </ImageFinanceiro>

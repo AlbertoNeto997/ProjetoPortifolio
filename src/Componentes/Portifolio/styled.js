@@ -15,8 +15,8 @@ export const PortifolioContainer = styled.section`
     }
 
     div{
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:50px;;
+        margin-right:50px;;
         padding:15px;
         background-color: transparent;
         width:auto;
@@ -24,7 +24,7 @@ export const PortifolioContainer = styled.section`
         margin-bottom:50px;
         text-align:center;
         border-radius:20px;
-        background-color:#008B8B;
+       // background-color:#008B8B;
  }
    
     a{
@@ -38,21 +38,21 @@ export const PortifolioContainer = styled.section`
             color: black;
             transition:0,5s;
         }
-    
     };
-
         h4{
     text-align:center;
     padding:8px;
     color:white;
     font-size:20px;
-        
     }
         h1{
     text-align:center;
     font-size: 45px;
     padding:20px;
     color:gold;
-    
+    }
+    p{
+        color: white;
+        font-size:18px;
     }
 `;   

@@ -3,6 +3,7 @@ import * as C from './styled'
 import ImageFinance from './financeiro'
 import ImageBuscador from './buscador'
 import ImageCalculadora from "./calculadora";
+import ImageProgramando from './programando'
 
 export default function Portifolio(){
     return(
@@ -26,9 +27,9 @@ export default function Portifolio(){
                 <a href="https://github.com/AlbertoNeto997/BuscadorDeCep" target="_blank"><p>Repositório</p></a>
              </div>
              <div>
-                <h4>CALCULADORA</h4>
-                <ImageCalculadora/>
-                <a href="https://github.com/AlbertoNeto997/BuscadorDeCep" target="_blank"><p>Repositório</p></a>
+                <h4>AGUARDE</h4>
+                <ImageProgramando/>
+                <p>Em breve novidades</p>
              </div>
          </nav>
                 

@@ -1,9 +1,11 @@
 import styled from 'styled-components'
+import Fundo from '../../assets/fundo01.jpg'
 
 export const BannerContainer = styled.body`
 
-height: 600px;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(19,21,79,1) 100%);  
+    height: 580px;
+    background-size:cover;
+    background-image:url(${Fundo});
     color: white;
     display: flex;
     align-items: center;
@@ -17,24 +19,27 @@ height: 600px;
     
     h1{
         text-decoration: none;
-        color: white;
         font-size: 70px;
         text-align: center;
-        color:yellow;
+        color:#2072d8;
+    }
+
+    h2{
+        color:black;
     }
 
     h4{
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: 20px;
         text-align: center;
         margin-bottom: 10px;
     }
 
     p {
-        color: white;
+        color: black;
         font-size: 20px;
-        text-align: center;
+        text-align: justify;
         margin-left:auto;
         margin-right:auto;
         margin-bottom:20px;
@@ -44,7 +49,7 @@ height: 600px;
 
     a{
         text-decoration: none;
-        color: #20dbcd;
+        color: white;
         text-align: justify;
         font-size:20px;
         cursor: pointer;

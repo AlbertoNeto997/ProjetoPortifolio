@@ -6,20 +6,21 @@ export const ContainerMenu = styled.nav`
         margin: 0;
         list-style-type: none;
         display: flex;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
+
         li{
             margin-left: 30px;
             margin-right: 30px;
             a{
                 text-decoration: none;
-                color: #7d8792;
+                color: white;
                 font-size: 20px;
                 cursor: pointer;
                 transition-duration: 0.5s;
 
                 &:hover{
-                    color: #FFFFFF;
+                    color: #00cbff;
                     transition-duration: 0.2s;
                 }
             }

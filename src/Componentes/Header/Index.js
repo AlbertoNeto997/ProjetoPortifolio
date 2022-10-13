@@ -7,9 +7,6 @@ export default function Header (){
     return(
        <> <C.HeaderContainer>
             <C.Container>
-            <div>
-                <p>Alberto.js</p>
-            </div>
             <Menu/>         
             </C.Container>
         </C.HeaderContainer>

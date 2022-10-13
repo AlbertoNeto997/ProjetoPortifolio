@@ -14,7 +14,7 @@ export default function Banner() {
                 <h2>Olá, me chamo</h2>
                 <h1>Alberto Nascimento</h1>
                 <h4>Desenvolvedor web</h4>
-                <p>Sou um profissional com habilidades de desenvolvimento front-end baseado em JavaScript  </p>
+                <p>Sou um profissional com habilidades de desenvolvimento front-end baseado em JavaScript.</p>
 
                 <C.Button>
                     <div><BsLinkedin/> <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a></div>

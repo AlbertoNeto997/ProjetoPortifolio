@@ -1,14 +1,14 @@
 import React from 'react'
-import Calculadora from '../../assets/Calculadora.png'
+import Programando from '../../assets/programando.jpg'
 import styled from 'styled-components';
 
-export default function ImageCalculadora ( ){
+export default function ImageProgramando ( ){
 
     const ImageCalculadora = styled.nav`
         transition: 0.5s;
         
         :hover{
-            transform: scale(1.3);
+            transform: scale(1.05);
              transition: 0.5s;
         }
         img{
@@ -20,7 +20,7 @@ export default function ImageCalculadora ( ){
     return(
         <ImageCalculadora>
         <a href="#">
-            <img  src={Calculadora} alt="logo-dev"/>
+            <img  src={Programando} alt="logo-dev"/>
         </a>  
         </ImageCalculadora>
            

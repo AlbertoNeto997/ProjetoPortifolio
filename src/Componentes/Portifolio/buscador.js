@@ -5,13 +5,10 @@ import styled from 'styled-components';
 export default function ImageFinance ( ){
 
     const ImageBuscador = styled.nav`
-       
-        :hover{
-        //    -webkit-transform: scale(1.1);
-            transform: scale(1.05);
-            -webkit-transition: -webkit-transform .5s ease;
-             transition: transform .5s ease;
-             transition-duration: 0.5s;
+        transition: 0.5s;
+        img:hover{
+            transform: scale(1.3);
+             transition: 0.5s;
         }
         img{
             width: 450px;
