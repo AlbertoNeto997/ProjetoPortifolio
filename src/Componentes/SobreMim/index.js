@@ -15,7 +15,7 @@ export default function SobreMim() {
             <h2>Sobre Mim</h2>
             
             <p>Olá, sou mestre em química pela Universidade Federal do Amazonas e licenciado pela universidade Fametro. 
-                Especializado em desenvolvimento web de temas personalizados. Se você chegou até aqui, seja bem-vindo. Em busca de contratação ou parceria em desenvolvimento, entre em contato <a href="https://wa.link/2dgcwm" target="_blank">comigo aqui</a>.</p>
+            No momento sigo me aperfeiçoando em desenvolvimento web com temas personalizados. Busco a primeira oportunidade para uma migração de carreira. Se está em busca de contratação ou parceria em desenvolvimento, entre em contato <a href="https://wa.link/2dgcwm" target="_blank">comigo aqui</a>.</p>
             </div>
             <C.divAcv>
                 

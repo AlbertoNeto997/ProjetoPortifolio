@@ -55,7 +55,7 @@ export const BannerContainer = styled.body`
         cursor: pointer;
         
             &:hover{
-                color: white;
+                color: #00cbff;
                 transition-duration: 0.5s;
             
     }

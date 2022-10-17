@@ -4,8 +4,7 @@ import GlobalStyle from './styles'
 import Experiencia from './Componentes/Experiencia/index'
 import Portifolio from './Componentes/Portifolio/index'
 import SobreMim from "./Componentes/SobreMim"
-import Footer from './Componentes/footer/footer.js'
-
+import Footer from './Componentes/Footer/footer.js'
 
 export default function App() {
   return (

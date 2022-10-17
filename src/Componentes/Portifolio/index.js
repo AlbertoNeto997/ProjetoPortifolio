@@ -14,19 +14,14 @@ export default function Portifolio(){
             <div>
                 <h4>CONTROLE FINANCEIRO</h4>
                 <ImageFinance/>
-                <a href="https://github.com/AlbertoNeto997/BuscadorDeCep" target="_blank"><p>Repositório</p></a>
+                <a href="https://github.com/albertonsc/ControleFinanceiro" target="_blank"><p>Repositório</p></a>
             </div>
             <div>
                 <h4>BUSCADOR DE CEP</h4>
                 <ImageBuscador/>
                 <a href="https://github.com/AlbertoNeto997/BuscadorDeCep" target="_blank"><p>Repositório</p></a>
              </div>
-             <div>
-                <h4>CALCULADORA</h4>
-                <ImageCalculadora/>
-                <a href="https://github.com/AlbertoNeto997/BuscadorDeCep" target="_blank"><p>Repositório</p></a>
-             </div>
-             <div>
+                         <div>
                 <h4>AGUARDE</h4>
                 <ImageProgramando/>
                 <p>Em breve novidades</p>

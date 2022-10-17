@@ -37,7 +37,7 @@ export default function Experiencia(){
                         <h3>PROFESSOR DE QUÍMICA</h3>
                         <h5>Escola CESC</h5>
                        Aulas de Química para alunos de nível medio.<p/>
-                        2 anos de experiência
+                        1 anos de experiência
                     </a>
                 </li>
                 <li>

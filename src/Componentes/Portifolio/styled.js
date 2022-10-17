@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PortifolioContainer = styled.section`
-    background: #00008B;
+    background: #0e3461;
     width:100%;
     height:100%;
     border-radius: 40px 40px 0px 0px;
