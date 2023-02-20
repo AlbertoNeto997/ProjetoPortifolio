@@ -1,7 +1,7 @@
 import React from 'react'
 import * as C from '../Banner/styles'
 import Image from './image'
-import {BsWhatsapp, BsLinkedin, BsGithub} from 'react-icons/bs'
+import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 export default function Banner() {
  
