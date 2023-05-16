@@ -29,10 +29,8 @@ export const ExperienciaContainer = styled.div`
         li{
     min-width:80px;
     min-height:60px;
-    width:350px;
-    height:220px;
-   // max-width:300px;
-    //max-height:200px;
+    width:450px;
+    height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,9 +41,9 @@ export const ExperienciaContainer = styled.div`
     border-radius:10px;
     font-size:max 20px;
     margin-bottom: 25px;
-    margin-top:20px;
-    margin-left:25px;
-    margin-right:25px;
+    margin-top:30px;
+    margin-left:30px;
+    margin-right:30px;
     transition-duration:0.3s;
     
         &:hover{

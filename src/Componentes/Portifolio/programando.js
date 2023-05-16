@@ -14,14 +14,13 @@ export default function ImageProgramando ( ){
         img{
             width: 450px;
             height:250px;
+            border-radius: 10px;
         }
     `;
     
     return(
         <ImageCalculadora>
-        <a href="#">
             <img  src={Programando} alt="logo-dev"/>
-        </a>  
         </ImageCalculadora>
            
     )

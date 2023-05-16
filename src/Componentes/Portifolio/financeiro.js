@@ -9,20 +9,19 @@ export default function ImageFinance ( ){
        transition: 0.5s;
 
         :hover{
-            transform: scale(1.3);
+            transform: scale(1.1);
              transition: 0.5s;
         }
         img{
             width: 450px;
             height:250px;
+            border-radius: 10px;
         }
     `;
     
     return(
         <ImageFinanceiro>
-        <a href="/">
             <img  src={Financeiro} alt="logo-dev"/>
-        </a>  
         </ImageFinanceiro>
            
     )

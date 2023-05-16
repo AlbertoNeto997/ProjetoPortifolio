@@ -54,5 +54,8 @@ export const PortifolioContainer = styled.section`
     p{
         color: white;
         font-size:18px;
+        :hover{
+            color: yellow;
+            transition:0,5s;
     }
 `;   

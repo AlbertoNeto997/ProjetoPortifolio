@@ -1,13 +1,13 @@
 import React from 'react'
-import Buscador from '../../assets/Buscador.png'
+import BlogFoto from '../../assets/sound.png'
 import styled from 'styled-components';
 
-export default function ImageFinance ( ){
+export default function Sound ( ){
 
-    const ImageBuscador = styled.nav`
+    const SoundImage = styled.nav`
         transition: 0.5s;
         img:hover{
-            transform: scale(1.1);
+            transform: scale(1.14);
              transition: 0.5s;
         }
         img{
@@ -18,9 +18,9 @@ export default function ImageFinance ( ){
     `;
     
     return(
-        <ImageBuscador>
-        <img  src={Buscador} alt="logo-dev"/>
-        </ImageBuscador>
+        <SoundImage>
+            <img  src={BlogFoto} alt="foto-sound-player"/>
+        </SoundImage>
            
     )
 }

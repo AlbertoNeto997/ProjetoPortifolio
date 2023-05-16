@@ -1,10 +1,10 @@
 import React from 'react'
-import Buscador from '../../assets/Buscador.png'
+import BlogFoto from '../../assets/Blog.png'
 import styled from 'styled-components';
 
-export default function ImageFinance ( ){
+export default function Blog ( ){
 
-    const ImageBuscador = styled.nav`
+    const BlogImage = styled.nav`
         transition: 0.5s;
         img:hover{
             transform: scale(1.1);
@@ -18,9 +18,11 @@ export default function ImageFinance ( ){
     `;
     
     return(
-        <ImageBuscador>
-        <img  src={Buscador} alt="logo-dev"/>
-        </ImageBuscador>
+        <BlogImage>
+        <a href="https://desafio-alkabot-alberto.netlify.app/" target="_blank" rel="noreferrer" >
+            <img  src={BlogFoto} alt="foto-blog"/>
+        </a>  
+        </BlogImage>
            
     )
 }

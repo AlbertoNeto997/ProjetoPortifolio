@@ -8,20 +8,19 @@ export default function ImageCalculadora ( ){
         transition: 0.5s;
         
         :hover{
-            transform: scale(1.3);
+            transform: scale(1.1);
              transition: 0.5s;
         }
         img{
             width: 450px;
             height:250px;
+            border-radius: 10px;
         }
     `;
     
     return(
         <ImageCalculadora>
-        <a href="#">
             <img  src={Calculadora} alt="logo-dev"/>
-        </a>  
         </ImageCalculadora>
            
     )

@@ -26,24 +26,25 @@ export const BannerContainer = styled.body`
 
     h2{
         color:black;
+        font-size: 25px;
     }
 
     h4{
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
         margin-bottom: 10px;
     }
 
     p {
         color: black;
-        font-size: 20px;
+        font-size: 22px;
         text-align: justify;
         margin-left:auto;
         margin-right:auto;
         margin-bottom:20px;
-        max-width:400px;
+        max-width:500px;
           
       }
 
@@ -86,8 +87,8 @@ export const BannerContainer = styled.body`
     }
 
     img{
-        width:450px;
-        height: 450px;
+        width: 500px;
+        height: 500px;
         margin-top: 30px;
     }
 `;
