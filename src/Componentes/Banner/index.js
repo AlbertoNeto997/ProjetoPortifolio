@@ -19,8 +19,8 @@ export default function Banner() {
                 </p>
 
                 <C.Button>
-                    <div><BsLinkedin/> <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a></div>
-                    <div><BsGithub/> <a href="https://github.com/Albertonsc" target="_blank">Github</a></div>
+                    <div><spam><BsLinkedin/> <a href="https://www.linkedin.com/in/albertonasc/" target="_blank">LinkedIn</a></spam></div>
+                    <div><spam><BsGithub/> <a href="https://github.com/Albertonsc" target="_blank">Github</a></spam></div>
                 </C.Button>
             </nav>
         </body>

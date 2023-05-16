@@ -26,7 +26,7 @@ export const SobreMimContainer = styled.body`
     @media (max-width: 1000px) {
       width: 300px;
       height: 300px;
-      margin: 30px;
+      margin-top: 20px;
     }
   }
 
@@ -58,12 +58,21 @@ export const SobreMimContainer = styled.body`
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
+
+    @media (max-width: 1000px) {
+          font-size: 40px;
+        }
   }
 
   p {
     color: white;
     font-size: 22px;
     text-align: justify;
+
+    @media (max-width: 1000px) {
+          font-size: 30px;
+        }
+    
   }
 
   a {
@@ -78,7 +87,7 @@ export const SobreMimContainer = styled.body`
 
       p{
         @media (max-width: 1000px) {
-          font-size: 15px;
+          font-size: 25px;
         }
       }
   }

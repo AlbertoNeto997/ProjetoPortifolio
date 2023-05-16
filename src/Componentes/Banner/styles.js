@@ -16,6 +16,7 @@ export const BannerContainer = styled.body`
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
       }
 
     nav{
@@ -30,11 +31,20 @@ export const BannerContainer = styled.body`
         font-size: 50px;
         text-align: center;
         color:#2072d8;
+
+        @media (max-width: 1000px) {
+            font-size: 100px;
+        }
     }
 
     h2{
         color:black;
         font-size: 25px;
+        text-align: center;
+
+        @media (max-width: 1000px) {
+            font-size: 60px;
+        }
     }
 
     h4{
@@ -43,6 +53,10 @@ export const BannerContainer = styled.body`
         font-size: 25px;
         text-align: center;
         margin-bottom: 10px;
+
+        @media (max-width: 1000px) {
+            font-size: 60px;
+        }
     }
 
     p {
@@ -52,10 +66,11 @@ export const BannerContainer = styled.body`
         margin-left:auto;
         margin-right:auto;
         margin-bottom:20px;
-        max-width:500px;
+        max-width: 500px;
           
-        @media (max-width: 1024px){
-            font-size: 25px;
+        @media (max-width: 1000px){
+            font-size: 50px;
+            max-width: 100%
         }
       }
 
@@ -104,7 +119,7 @@ export const BannerContainer = styled.body`
         height: 500px;
         margin-top: 30px;
 
-        @media (max-width: 1024px){
+        @media (max-width: 1000px){
             display: none;
         }
     }
@@ -117,12 +132,38 @@ export const Button = styled.section`
     justify-content:space-evenly;
     
     div{
+        display: flex;
+        display-wrop: wrop;
         align-items:center;
-        text-align:center;
-        border-radius:20px 20px 20px 20px;
+        content-aligm: center;
+        text-align: center;
+        border-radius:20px;
         height:40px;
-        width:120px;;
+        width:120px;
         background-color:#123855;
         padding:5px;
+
+        @media(max-width: 1000px) {
+            width: 200px;
+            height: 60px;
+            border-radius:40px;
+        }
     }
+
+    a{
+        padding: 10px;
+
+       
+    }
+
+    spam{
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+
+        @media(max-width: 1000px) {
+            scale: 1.4;
+        }
+    }
+
 `;
