@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ExperienciaContainer = styled.div`
         background: white;
-        width:100%;
         height:100%;
         align-items:center;
         margin-bottom: 50px;    
