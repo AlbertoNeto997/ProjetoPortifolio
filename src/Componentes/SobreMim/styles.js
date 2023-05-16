@@ -7,23 +7,24 @@ export const SobreMimContainer = styled.body`
     rgba(0, 0, 0, 1) 0%,
     rgba(19, 21, 79, 1) 100%
   );
+
+  padding: 15px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 
   img {
     width: 400px;
     height: 400px;
     border-radius: 200px;
-    margin-top: 30px;
-    margin-right: 100px;
   }
 
   div {
     margin-right: 8%;
     margin-left: 8%;
+    margin-top: 8%;
+    margin-bottom: 10%;
   }
   h1 {
     text-decoration: none;
@@ -47,8 +48,6 @@ export const SobreMimContainer = styled.body`
   p {
     color: white;
     font-size: 20px;
-    // margin-right:200px;
-    //margin-left:400px;
     text-align: justify;
   }
   a {
@@ -56,46 +55,30 @@ export const SobreMimContainer = styled.body`
     text-decoration: none;
   }
 
-  button {
-    min-width: 150px;
-    border: solid 1px #dfa70c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #eeeeee;
-    background-color: transparent;
-    border-radius: 45px;
-    font-size: 15px;
-    padding: 10px 15px;
-    margin: 0 auto;
-    margin-top: 20px;
-    transition-duration: 0.5s;
-    cursor: pointer;
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    &:hover {
-      color: black;
-      border: solid 1px #eeeeee;
-      background-color: beige;
-    }
-  }
+}
 `;
 
 export const divAcv = styled.main`
   width: auto;
-  max-width: 250px;
-  min-width: 10px;
+  max-width: 200px;
+  min-width: 5px;
   border: solid 1px #dfa70c;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   color: #eeeeee;
   background-color: transparent;
-  border-radius: 45px;
-  font-size: 15px;
-  padding: 10px 15px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 5px 20px;
+  margin: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   transition-duration: 0.5s;
   cursor: pointer;
   &:hover {

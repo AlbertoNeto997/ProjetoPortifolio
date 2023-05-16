@@ -7,6 +7,7 @@ export const ExperienciaContainer = styled.div`
         align-items:center;
         margin-bottom: 50px;    
         margin-top:20px;    
+        display: flex;
 
         
         a{
@@ -22,7 +23,6 @@ export const ExperienciaContainer = styled.div`
         ul{
     display: flexbox;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
     

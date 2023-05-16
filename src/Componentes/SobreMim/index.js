@@ -24,6 +24,7 @@ export default function SobreMim() {
               .
             </p>
           </div>
+          <div className="buttons">
           <C.divAcv>
             <main>
               <a href="../assets/cvalberto.pdf" download="">
@@ -32,10 +33,13 @@ export default function SobreMim() {
               <p />
             </main>
           </C.divAcv>
-          <p />
           <C.divAcv>
             <main>
-              <a href="https://github.com/albertonsc" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/albertonsc"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p>GitHub</p>
               </a>
             </main>
@@ -44,12 +48,14 @@ export default function SobreMim() {
             <main>
               <a
                 href="https://www.linkedin.com/in/albertonasc/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 <p>LinkedIn</p>
               </a>
             </main>
           </C.divAcv>
+          </div>
         </body>
 
         <Teste />

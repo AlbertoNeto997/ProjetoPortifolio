@@ -15,6 +15,8 @@ export const BannerContainer = styled.body`
     nav{
         margin-right: 50px;
         margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     h1{
