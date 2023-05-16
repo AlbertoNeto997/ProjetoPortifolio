@@ -21,8 +21,8 @@ export const SobreMimContainer = styled.body`
   }
 
   div {
-    margin-right: 8%;
-    margin-left: 8%;
+    margin-right: 9%;
+    margin-left: 9%;
     margin-top: 8%;
     margin-bottom: 10%;
   }
@@ -47,7 +47,7 @@ export const SobreMimContainer = styled.body`
   }
   p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
   }
   a {
