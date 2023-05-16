@@ -3,7 +3,7 @@ import Fundo from '../../assets/fundo01.jpg'
 
 export const BannerContainer = styled.body`
 
-    min-height: 500px;
+    min-height: 800px;
     background-size:cover;
     background-image:url(${Fundo});
     color: white;
@@ -20,10 +20,7 @@ export const BannerContainer = styled.body`
       }
 
     nav{
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin: 150px 80px;
     }
     
     h1{
@@ -33,7 +30,7 @@ export const BannerContainer = styled.body`
         color:#2072d8;
 
         @media (max-width: 1000px) {
-            font-size: 100px;
+            font-size: 110px;
         }
     }
 
@@ -43,7 +40,7 @@ export const BannerContainer = styled.body`
         text-align: center;
 
         @media (max-width: 1000px) {
-            font-size: 60px;
+            font-size: 80px;
         }
     }
 
@@ -55,7 +52,7 @@ export const BannerContainer = styled.body`
         margin-bottom: 10px;
 
         @media (max-width: 1000px) {
-            font-size: 60px;
+            font-size: 80px;
         }
     }
 
@@ -69,7 +66,7 @@ export const BannerContainer = styled.body`
         max-width: 500px;
           
         @media (max-width: 1000px){
-            font-size: 50px;
+            font-size: 80px;
             max-width: 100%
         }
       }
@@ -130,6 +127,7 @@ export const BannerContainer = styled.body`
 export const Button = styled.section`
     display:flex;
     justify-content:space-evenly;
+    margin: 80px 0px;
     
     div{
         display: flex;
@@ -144,9 +142,9 @@ export const Button = styled.section`
         padding:5px;
 
         @media(max-width: 1000px) {
-            width: 200px;
-            height: 60px;
-            border-radius:40px;
+            width: 300px;
+            height: 90px;
+            border-radius:50px;
         }
     }
 
@@ -162,7 +160,7 @@ export const Button = styled.section`
         align-items: center;
 
         @media(max-width: 1000px) {
-            scale: 1.4;
+            scale: 2.0;
         }
     }
 

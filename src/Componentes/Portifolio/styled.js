@@ -44,12 +44,19 @@ export const PortifolioContainer = styled.section`
     padding:8px;
     color:white;
     font-size:20px;
+    @media (max-width: 1024px){
+        font-size: 35px;
+      }
     }
         h1{
     text-align:center;
     font-size: 45px;
     padding:20px;
     color:gold;
+
+    @media (max-width: 1024px){
+        font-size: 100px;
+      }
     }
     p{
         color: white;
@@ -57,9 +64,10 @@ export const PortifolioContainer = styled.section`
         :hover{
             color: yellow;
             transition:0,5s;
+            
     }
 
     @media (max-width: 1000px){
-        font-size: 25px;
+        font-size: 40px;
     }
 `;   

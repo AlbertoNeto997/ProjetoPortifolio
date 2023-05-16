@@ -24,8 +24,9 @@ export const SobreMimContainer = styled.body`
     border-radius: 200px;
 
     @media (max-width: 1000px) {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: 500px;
+      border-radius: 250px;
       margin-top: 20px;
     }
   }
@@ -41,17 +42,6 @@ export const SobreMimContainer = styled.body`
     }
   }
 
-  h1 {
-    text-decoration: none;
-    color: white;
-    font-size: 45px;
-    margin-right: 0px;
-    margin-left: 250px;
-    margin-top: 20px;
-    text-align: center;
-    color: yellow;
-  }
-
   h2 {
     text-decoration: none;
     color: white;
@@ -60,7 +50,7 @@ export const SobreMimContainer = styled.body`
     text-align: center;
 
     @media (max-width: 1000px) {
-          font-size: 40px;
+          font-size: 80px;
         }
   }
 
@@ -70,7 +60,8 @@ export const SobreMimContainer = styled.body`
     text-align: justify;
 
     @media (max-width: 1000px) {
-          font-size: 30px;
+          font-size: 60px;
+          margin: 40px;
         }
     
   }
@@ -87,28 +78,28 @@ export const SobreMimContainer = styled.body`
 
       p{
         @media (max-width: 1000px) {
-          font-size: 25px;
+          font-size: 40px;
+          margin: 10px;
+          text-align: center;
         }
       }
   }
 `;
 
 export const divAcv = styled.main`
-  width: auto;
-  max-width: 200px;
-  min-width: 5px;
+  width: 280px;
   border: solid 1px #dfa70c;
+  border-radius: 50px;
   display: inline-block;
   align-items: center;
   justify-content: center;
   color: #eeeeee;
   background-color: transparent;
-  border-radius: 20px;
   font-size: 12px;
   padding: 5px 20px;
   margin: 5px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-top: 20px;
   transition-duration: 0.5s;
   cursor: pointer;
   &:hover {

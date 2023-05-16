@@ -12,7 +12,7 @@ export default function SobreMim() {
             <h2>Sobre Mim</h2>
 
             <p>
-              Olá, sou estudante de Análise e Desenvolvimento de Sistemas na
+              Sou estudante de Análise e Desenvolvimento de Sistemas na
               Universidade UniAmérica (Descomplica). Meu primeiro contato com
               programação ocorreu em 2021. Antes da área de TI, fiz mestrado em
               química pela UFAM e graduação em Química pela universidade

@@ -30,10 +30,7 @@ export const ExperienciaContainer = styled.div`
   }
 
   li {
-    min-width: 80px;
-    min-height: 60px;
-    width: 50%px;
-    height: 220px;
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +47,7 @@ export const ExperienciaContainer = styled.div`
 
     @media (max-width: 1024px){
       width: 90%;
-      font-size: 22px;
+      font-size: 50px;
     }
 
     &:hover {
@@ -78,15 +75,20 @@ export const ExperienciaContainer = styled.div`
   h3 {
     text-align: center;
     padding: 8px;
+    
   }
   h2 {
     text-align: center;
     font-size: 45px;
     padding: 5px;
     color: gold;
+
+    @media (max-width: 1024px){
+      font-size: 100px;
+    }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1000px) {
     flex-wrap: nowrap;
   }
 `;
