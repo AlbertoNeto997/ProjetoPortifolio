@@ -10,6 +10,10 @@ export const PortifolioContainer = styled.section`
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    @media (max-width: 1024px) {
+        flex-wrap: wrap;
+      }
     }
 
     div{
@@ -17,8 +21,6 @@ export const PortifolioContainer = styled.section`
         margin-right:50px;;
         padding:15px;
         background-color: transparent;
-        width:auto;
-        height:auto;
         margin-bottom:50px;
         text-align:center;
         border-radius:20px;
@@ -57,7 +59,5 @@ export const PortifolioContainer = styled.section`
             transition:0,5s;
     }
 
-    @media (min-width: 1024px) {
-        flex-wrap: nowrap;
-      }
+   
 `;   

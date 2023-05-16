@@ -7,6 +7,11 @@ export const ExperienciaContainer = styled.div`
   margin-bottom: 50px;
   margin-top: 20px;
   display: flex;
+  flex: 2;
+
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
 
   a {
     margin-top: 15px;
