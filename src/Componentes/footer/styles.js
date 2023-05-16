@@ -10,4 +10,8 @@ export const footContainer = styled.div`
     h4{
         text-align:center;
     }
+
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
     `;

@@ -6,6 +6,7 @@ export default function SobreMim() {
   return (
     <>
       <C.SobreMimContainer>
+        <Teste />
         <body>
           <div>
             <h2>Sobre Mim</h2>
@@ -25,40 +26,38 @@ export default function SobreMim() {
             </p>
           </div>
           <div className="buttons">
-          <C.divAcv>
-            <main>
-              <a href="../assets/cvalberto.pdf" download="">
-                <p>Download CV</p>
-              </a>
-              <p />
-            </main>
-          </C.divAcv>
-          <C.divAcv>
-            <main>
-              <a
-                href="https://github.com/albertonsc"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <p>GitHub</p>
-              </a>
-            </main>
-          </C.divAcv>
-          <C.divAcv>
-            <main>
-              <a
-                href="https://www.linkedin.com/in/albertonasc/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <p>LinkedIn</p>
-              </a>
-            </main>
-          </C.divAcv>
+            <C.divAcv>
+              <main>
+                <a href="../assets/cvalberto.pdf" download="">
+                  <p>Download CV</p>
+                </a>
+                <p />
+              </main>
+            </C.divAcv>
+            <C.divAcv>
+              <main>
+                <a
+                  href="https://github.com/albertonsc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>GitHub</p>
+                </a>
+              </main>
+            </C.divAcv>
+            <C.divAcv>
+              <main>
+                <a
+                  href="https://www.linkedin.com/in/albertonasc/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p>LinkedIn</p>
+                </a>
+              </main>
+            </C.divAcv>
           </div>
         </body>
-
-        <Teste />
       </C.SobreMimContainer>
     </>
   );

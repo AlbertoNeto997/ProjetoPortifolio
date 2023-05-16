@@ -3,7 +3,7 @@ import Fundo from '../../assets/fundo01.jpg'
 
 export const BannerContainer = styled.body`
 
-    height: 580px;
+    min-height: 500px;
     background-size:cover;
     background-image:url(${Fundo});
     color: white;
@@ -12,6 +12,12 @@ export const BannerContainer = styled.body`
     justify-content: center;
     justify-content:space-evenly;
     
+    @media (max-width: 1000px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
     nav{
         margin-right: 50px;
         margin-left: 50px;
@@ -99,7 +105,7 @@ export const BannerContainer = styled.body`
         margin-top: 30px;
 
         @media (max-width: 1024px){
-            width:0;
+            display: none;
         }
     }
 

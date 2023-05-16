@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const ContainerMenu = styled.nav`
-@media (max-width: 1024px){
-    adisplay: none;
 
     ul{
         padding: 0;
@@ -32,5 +30,4 @@ export const ContainerMenu = styled.nav`
     
     }
 
-    
 `;

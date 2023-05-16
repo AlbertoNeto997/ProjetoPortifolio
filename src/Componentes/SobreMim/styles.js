@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const SobreMimContainer = styled.body`
-  height: 700px;
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
@@ -13,13 +12,21 @@ export const SobreMimContainer = styled.body`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   img {
     width: 400px;
     height: 400px;
     border-radius: 200px;
 
     @media (max-width: 1000px) {
-      display: none;
+      width: 300px;
+      height: 300px;
+      margin: 30px;
     }
   }
 
@@ -28,6 +35,10 @@ export const SobreMimContainer = styled.body`
     margin-left: 9%;
     margin-top: 8%;
     margin-bottom: 10%;
+
+    @media (max-width: 1000px) {
+      margin: 15px 30px;
+    }
   }
 
   h1 {
@@ -51,7 +62,7 @@ export const SobreMimContainer = styled.body`
 
   p {
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     text-align: justify;
   }
 
@@ -64,6 +75,12 @@ export const SobreMimContainer = styled.body`
     display: flex;
     align-items: center;
     justify-content: center;
+
+      p{
+        @media (max-width: 1000px) {
+          font-size: 15px;
+        }
+      }
   }
 `;
 
