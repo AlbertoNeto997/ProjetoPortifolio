@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 export const ContainerMenu = styled.nav`
+@media (max-width: 1024px){
+    adisplay: none;
+
     ul{
         padding: 0;
         margin: 0;
@@ -19,6 +22,7 @@ export const ContainerMenu = styled.nav`
                 cursor: pointer;
                 transition-duration: 0.5s;
 
+                
                 &:hover{
                     color: #00cbff;
                     transition-duration: 0.2s;
@@ -28,4 +32,5 @@ export const ContainerMenu = styled.nav`
     
     }
 
+    
 `;

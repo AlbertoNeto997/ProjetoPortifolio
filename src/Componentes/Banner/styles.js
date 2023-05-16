@@ -21,7 +21,7 @@ export const BannerContainer = styled.body`
     
     h1{
         text-decoration: none;
-        font-size: 70px;
+        font-size: 50px;
         text-align: center;
         color:#2072d8;
     }
@@ -48,6 +48,9 @@ export const BannerContainer = styled.body`
         margin-bottom:20px;
         max-width:500px;
           
+        @media (max-width: 1024px){
+            font-size: 25px;
+        }
       }
 
     a{
@@ -56,6 +59,8 @@ export const BannerContainer = styled.body`
         text-align: justify;
         font-size:20px;
         cursor: pointer;
+
+        
         
             &:hover{
                 color: #00cbff;
@@ -92,7 +97,13 @@ export const BannerContainer = styled.body`
         width: 500px;
         height: 500px;
         margin-top: 30px;
+
+        @media (max-width: 1024px){
+            width:0;
+        }
     }
+
+   
 `;
 
 export const Button = styled.section`

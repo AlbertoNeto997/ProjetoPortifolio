@@ -11,10 +11,8 @@ export const PortifolioContainer = styled.section`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 1024px){
-      width: 100%;
     }
-      }
+      
     }
 
     div{
@@ -25,7 +23,8 @@ export const PortifolioContainer = styled.section`
         margin-bottom:50px;
         text-align:center;
         border-radius:20px;
-       // background-color:#008B8B;
+
+        
  }
    
     a{
@@ -60,5 +59,7 @@ export const PortifolioContainer = styled.section`
             transition:0,5s;
     }
 
-   
+    @media (max-width: 1000px){
+        font-size: 25px;
+    }
 `;   

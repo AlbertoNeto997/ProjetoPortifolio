@@ -16,7 +16,6 @@ export const ExperienciaContainer = styled.div`
   a {
     margin: 15px 20px;
     text-align: center;
-    font-size: 18px;
     text-decoration: none;
   }
 
@@ -24,6 +23,7 @@ export const ExperienciaContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
 
     
     }
@@ -42,7 +42,6 @@ export const ExperienciaContainer = styled.div`
     color: gray;
     background: transparent;
     border-radius: 10px;
-    font-size: 20px;
     margin-bottom: 25px;
     margin-top: 30px;
     margin-left: 30px;
@@ -51,7 +50,7 @@ export const ExperienciaContainer = styled.div`
 
     @media (max-width: 1024px){
       width: 90%;
-      font-size: 50px;
+      font-size: 22px;
     }
 
     &:hover {

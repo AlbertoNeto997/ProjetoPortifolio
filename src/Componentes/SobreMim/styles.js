@@ -17,6 +17,10 @@ export const SobreMimContainer = styled.body`
     width: 400px;
     height: 400px;
     border-radius: 200px;
+
+    @media (max-width: 1000px) {
+      display: none;
+    }
   }
 
   div {
