@@ -6,13 +6,14 @@ export const PortifolioContainer = styled.section`
 
     nav{
     
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 
-    @media (max-width: 1024px) {
-        flex-wrap: wrap;
+    @media (max-width: 1024px){
+      width: 100%;
+    }
       }
     }
 

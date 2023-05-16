@@ -2,37 +2,37 @@ import styled from "styled-components";
 
 export const ExperienciaContainer = styled.div`
   background: white;
-  height: 100%;
   align-items: center;
   margin-bottom: 50px;
   margin-top: 20px;
   display: flex;
-  flex: 2;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 1024px) {
     flex-wrap: wrap;
   }
 
   a {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 15px 20px;
     text-align: center;
     font-size: 18px;
     text-decoration: none;
   }
 
   ul {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    
+    }
   }
 
   li {
     min-width: 80px;
     min-height: 60px;
-    width: 450px;
+    width: 50%px;
     height: 220px;
     display: flex;
     align-items: center;
@@ -42,12 +42,17 @@ export const ExperienciaContainer = styled.div`
     color: gray;
     background: transparent;
     border-radius: 10px;
-    font-size: max 20px;
+    font-size: 20px;
     margin-bottom: 25px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
     transition-duration: 0.3s;
+
+    @media (max-width: 1024px){
+      width: 90%;
+      font-size: 50px;
+    }
 
     &:hover {
       color: black;

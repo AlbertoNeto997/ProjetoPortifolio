@@ -7,8 +7,6 @@ export const SobreMimContainer = styled.body`
     rgba(0, 0, 0, 1) 0%,
     rgba(19, 21, 79, 1) 100%
   );
-
-  
   padding: 15px;
   color: white;
   display: flex;
@@ -58,15 +56,11 @@ export const SobreMimContainer = styled.body`
     text-decoration: none;
   }
 
-  
-.buttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const divAcv = styled.main`
@@ -96,4 +90,3 @@ export const divAcv = styled.main`
     background-color: beige;
   }
 `;
-
