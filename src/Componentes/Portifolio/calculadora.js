@@ -1,5 +1,5 @@
 import React from "react";
-import Calculadora from "../../assets/Calculadora.png";
+import Calculadora from "../../assets/calculadora.png";
 import styled from "styled-components";
 
 export default function ImageCalculadora() {
