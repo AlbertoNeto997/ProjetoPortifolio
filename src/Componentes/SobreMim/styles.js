@@ -8,6 +8,7 @@ export const SobreMimContainer = styled.body`
     rgba(19, 21, 79, 1) 100%
   );
 
+  
   padding: 15px;
   color: white;
   display: flex;
@@ -26,6 +27,7 @@ export const SobreMimContainer = styled.body`
     margin-top: 8%;
     margin-bottom: 10%;
   }
+
   h1 {
     text-decoration: none;
     color: white;
@@ -33,7 +35,6 @@ export const SobreMimContainer = styled.body`
     margin-right: 0px;
     margin-left: 250px;
     margin-top: 20px;
-
     text-align: center;
     color: yellow;
   }
@@ -45,22 +46,27 @@ export const SobreMimContainer = styled.body`
     margin-bottom: 20px;
     text-align: center;
   }
+
   p {
     color: white;
     font-size: 18px;
     text-align: justify;
   }
+
   a {
     color: turquoise;
     text-decoration: none;
   }
 
+  
 .buttons{
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
+
+
 `;
 
 export const divAcv = styled.main`
@@ -90,3 +96,4 @@ export const divAcv = styled.main`
     background-color: beige;
   }
 `;
+

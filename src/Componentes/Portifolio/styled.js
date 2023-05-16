@@ -56,4 +56,8 @@ export const PortifolioContainer = styled.section`
             color: yellow;
             transition:0,5s;
     }
+
+    @media (min-width: 1024px) {
+        flex-wrap: nowrap;
+      }
 `;   
