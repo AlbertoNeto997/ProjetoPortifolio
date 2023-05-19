@@ -147,10 +147,14 @@ export const Button = styled.section`
             border-radius:50px;
         }
     }
-
+    
     a{
         padding: 10px;
-
+        margin: 0 auto;
+        
+        @media (max-width: 1000px) {
+            font-size: 50px;
+        }
        
     }
 

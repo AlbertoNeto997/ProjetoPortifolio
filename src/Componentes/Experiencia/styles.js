@@ -30,7 +30,7 @@ export const ExperienciaContainer = styled.div`
   }
 
   li {
-    width: 100px;
+    min-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

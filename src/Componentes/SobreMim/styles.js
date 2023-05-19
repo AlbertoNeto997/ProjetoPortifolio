@@ -32,8 +32,8 @@ export const SobreMimContainer = styled.body`
   }
 
   div {
-    margin-right: 9%;
-    margin-left: 9%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 8%;
     margin-bottom: 10%;
 
@@ -87,7 +87,6 @@ export const SobreMimContainer = styled.body`
 `;
 
 export const divAcv = styled.main`
-  width: 280px;
   border: solid 1px #dfa70c;
   border-radius: 50px;
   display: inline-block;

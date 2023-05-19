@@ -1,16 +1,30 @@
 import React from "react";
-import Menu from '../Menu/index';
 import * as C from "./styles";
-import Banner from '../Banner/index'
 
-export default function Header (){
-    return(
-       <> <C.HeaderContainer>
-            <C.Container>
-            <Menu/>         
-            </C.Container>
-        </C.HeaderContainer>
-        <Banner/>
-        </>
-    )       
+export default function Header() {
+  return (
+    <>
+     
+      <C.HeaderContainer>
+        <C.Container>
+          <C.ContainerMenu>
+            <ul>
+              <li>
+                <p>Home</p>
+              </li>
+              <li>
+                <p>Sobre Mim</p>
+              </li>
+              <li>
+                <p>Experiências</p>
+              </li>
+              <li>
+                <p>Portifólio</p>
+              </li>
+            </ul>
+          </C.ContainerMenu>
+        </C.Container>
+      </C.HeaderContainer>
+    </>
+  );
 }
